@@ -4,7 +4,7 @@
   "description": "Calculadora NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/juanDev-47/lab22021#readme",
   "dependencies": {
-    "mocha": "^8.3.2",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "chai": "^4.3.4"
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
   }
 }
